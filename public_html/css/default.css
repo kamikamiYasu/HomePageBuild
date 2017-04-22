@@ -8,3 +8,8 @@ and open the template in the editor.
     Author     : nextn
 */
 
+header{
+    background-color: #060;
+    color: #ffffff;
+    padding: 10px;
+}
