@@ -16,3 +16,37 @@ header{
     height: 45px;
 }
 
+ul#naviHome{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul#naviHome li{
+    list-style: none;
+    float: left;
+    height: 25px;
+}
+ul#naviHome li a{
+    font-family: cursive;
+    display: inline-block;
+    width: 150px;
+    height: 34px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 34px;
+    background-color: #0000cc;
+    color: #fff;
+}
+
+ul#naviHome li a:hover{
+    color: #0ff;
+    text-align: center;
+    text-decoration: none;
+    line-height: 34px;
+    background-color: #fff;
+    border: solid;
+    border-width: 1px; 
+    border-color: #00ffff;
+    display: block;
+    z-index: -1;
+}
