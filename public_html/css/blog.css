@@ -7,4 +7,33 @@ and open the template in the editor.
     Created on : 2017/04/28, 5:05:42
     Author     : nextn
 */
-
+body{
+    width:1000px;
+    margin:35px auto;
+}
+header, article, aside, section, footer{
+    display: block;
+}
+header, article,section.sideNavi,footer{
+    border: 1px solid #cccccc;
+    margin: 0 0 10px;
+    padding: 20px;
+}
+header{
+    text-align: center;
+}
+article{
+    float: left;
+    width: 700px;
+    height: 2000px;
+}
+aside{
+    float: right;
+    width: 180px;
+}
+footer{
+    clear:both;
+    text-align: center;
+    padding: 5px;
+    font-size: 80%;
+}

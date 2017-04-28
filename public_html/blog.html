@@ -11,13 +11,47 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/blog.css" media="all">
         <link href="pix/favicon.ico" rel="shortcut icon" type="image/x-icon">
-
+        <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
     </head>
     <body>
         <header>
-            <a href="blog.html">
-                <img src="pix/headerImage.png" alt="かみブログ" width="80%" height="80%">
-            </a>
+            <hgroup>
+                <h1>かみブログ</h1>
+                <h2>暇を持て余した神々の遊び（一人）</h2>
+            </hgroup>
         </header>
+        <article>
+            <section>
+                <h1>ここに最新の記事を出す</h1>
+                <p>実際の内容はここ（タイトルは上）</p>
+            </section>
+            <section>
+                <h1>ここは前の記事を出す。</h1>
+                <p>
+                    javascriptで更新とかするのかな？
+                </p>
+            </section>
+        </article>
+        <aside>
+            <section class="sideNavi">
+                <h1>カテゴリー</h1>
+                <ul>
+                    <li><a href="#">カテゴリー１</a></li>
+                    <li><a href="#">カテゴリー２</a></li>
+                </ul>
+            </section>
+            <section class="sideNavi">
+                <h1>Archive</h1>
+                <ul>
+                    <li><a href="#">4/2017</a></li>
+                </ul>
+            </section>
+        </aside>
+        <footer>
+            Copyright @<a href="#">精神と時の部屋</a> All Right Reserved.
+            <address>by : <a href="#">KamiKamiYasu</a></address>
+        </footer>
     </body>
 </html>
